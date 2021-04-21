@@ -18,5 +18,5 @@ from django.urls import path # pylint: disable=import-error
 from.import views # pylint: disable=import-error
 
 urlpatterns = [
-    path('/index', views.index, name = "index")
+    path('index/', views.index, name = "index")
 ]
